@@ -11,7 +11,7 @@ def main():
     # Call the parse_formula function to convert the
     # chemical formula given by the user to a compound
     # list that stores element symbols and the quantity
-    # of atoms of each element in the molecule.
+    
    
     parse_formula(formula, table)
     symbol_quantity_list = list(elem_dict.items()) ???
